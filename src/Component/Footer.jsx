@@ -23,7 +23,7 @@ const Footer = () => {
         {/* About Section */}
         <Grid item xs={12} md={4} textAlign="center">
           <Typography variant="h6" gutterBottom sx={{ fontWeight: 'bold' }}>
-            Resume Checker
+            Resume Expert
           </Typography>
           <Typography variant="body2">
             Your one-stop solution for resume analysis and matching.
@@ -45,12 +45,8 @@ const Footer = () => {
               About Us
             </Link>
             <br />
-            <Link component={RouterLink} to="/ourservices" sx={{ color: '#fff', textDecoration: 'none' }}>
-              Our Services
-            </Link>
-            <br />
-            <Link component={RouterLink} to="/contactus" sx={{ color: '#fff', textDecoration: 'none' }}>
-              Contact Us
+            <Link component={RouterLink} to="/contact-us" sx={{ color: '#fff', textDecoration: 'none' }}>
+              ContactUs
             </Link>
           </Typography>
         </Grid>

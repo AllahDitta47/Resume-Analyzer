@@ -1,29 +1,31 @@
-
 import './App.css';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Auth/Home/Home';
 import User from './Pages/User';
 import FileUploadPage from './Pages/FileUpload';
 import JobDescriptionInput from './Component/JobDescriptionInput';
 import About from './Pages/About';
 import ContactUs from './Pages/ContactUs';
-import Ourservices from './Pages/Ourservices';
+import LearnMore from './Pages/Details';                                                
+
+
 
 function App() {
   return (
-<>
-<BrowserRouter>
-<Routes>
-  <Route exact path='/home' element={<Home/>}/>
-  <Route exact path='/job' element={<JobDescriptionInput/>}/>
-  <Route exact path='/file' element={<FileUploadPage/>}/>
-  <Route exact path='/About' element={<About/>}/>
-  <Route exact path='/ContactUs' element={<ContactUs/>}/>
-  <Route exact path='/OurServices' element={<Ourservices/>}/>
-
-</Routes>
-</BrowserRouter>
-</>
+    
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} /> {/* Root route */}
+        <Route path='/home' element={<Home />} />
+        <Route path='/job' element={<JobDescriptionInput />} />
+        <Route path='/file' element={<FileUploadPage />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact-us' element={<ContactUs />} />
+       
+<Route path="/learnmore" element={<LearnMore />} />
+      </Routes>
+    </BrowserRouter>
+    
   );
 }
 
