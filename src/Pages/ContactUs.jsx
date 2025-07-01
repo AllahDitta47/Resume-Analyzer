@@ -84,7 +84,7 @@ export default function ContactUs() {
               </Typography>
               <Box sx={{ marginTop: 2 }}>
                 <Typography variant="body1" sx={{ color: '#333' }}>
-                  <strong>Phone:</strong> +1 (123) 456-7890
+                  <strong>Phone:</strong> 0301-5827524
                 </Typography>
                 <Typography variant="body1" sx={{ color: '#333' }}>
                   <strong>Email:</strong> contact@resumeanalyzer.com

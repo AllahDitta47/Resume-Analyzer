@@ -1,7 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Auth/Home/Home';
-import User from './Pages/User';
 import FileUploadPage from './Pages/FileUpload';
 import JobDescriptionInput from './Component/JobDescriptionInput';
 import About from './Pages/About';

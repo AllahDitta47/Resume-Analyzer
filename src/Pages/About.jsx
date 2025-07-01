@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Box, Container, Paper, Card, CardContent, Grid } from '@mui/material';
+import { Typography, Box, Container, Card, CardContent, Grid } from '@mui/material';
 import { motion } from 'framer-motion';
 import Layout from '../Layout/Layout';
 

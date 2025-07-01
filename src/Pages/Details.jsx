@@ -22,7 +22,7 @@ const features = [
     icon: <EmojiObjects fontSize="large" />,
     title: "Smart Suggestions",
     description:
-      "Receive recommendations on how to improve your resume for higher compatibility scores.",
+      "Receive recommendations on how to improve your resume for the higher compatibility scores.",
   },
 ];
 
@@ -38,7 +38,12 @@ export default function LearnMore() {
         >
           <Typography
             variant="h3"
-            sx={{ fontWeight: "bold", color: "#1976d2", mb: 2, textAlign: "center" }}
+            sx={{
+              fontWeight: "bold",
+              color: "#1976d2",
+              mb: 2,
+              textAlign: "center",
+            }}
           >
             Why Choose Resume Expert?
           </Typography>
@@ -53,9 +58,9 @@ export default function LearnMore() {
               mb: 5,
             }}
           >
-            We combine AI with modern job market insights to give you a competitive edge.
-            Whether you're a fresher or a seasoned professional, our platform helps you
-            land your dream job.
+            We combine AI with modern job market insights to give you a
+            competitive edge. Whether you're a fresher or a seasoned
+            professional, our platform helps you land your dream job.
           </Typography>
         </motion.div>
 
